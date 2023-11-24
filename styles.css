@@ -1,0 +1,79 @@
+body {
+  background: rgb(203, 195, 195);
+}
+.current-weather {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  font-family: "DM Serif Display", serif;
+  font-family: "Noto Serif Georgian", serif;
+  font-family: "PT Mono", monospace;
+  font-family: "Rubik", sans-serif;
+}
+.Arlington {
+  font-size: 40px;
+}
+.temperature {
+  font-size: 18px;
+  color: rgb(123, 120, 120);
+  font-weight: 200;
+}
+.temperature strong {
+  color: rgb(88, 73, 73);
+}
+.search-button {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: rgb(255, 0, 64);
+  color: white;
+  border: none;
+  padding: 20px;
+  line-height: 1;
+  border-radius: 5px;
+}
+.search-input {
+  background-color: #f9f7fe;
+  border: none;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
+}
+.sun {
+  position: relative;
+  font-size: 50px;
+  top: 20px;
+}
+.today {
+  position: relative;
+  font-size: 70px;
+  font-weight: 500;
+  top: 28px;
+}
+.degree {
+  position: relative;
+  top: -12px;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 15px;
+  color: rgba(39, 33, 66, 0.4);
+  font-family: "DM Serif Display", serif;
+  font-family: "Noto Serif Georgian", serif;
+  font-family: "PT Mono", monospace;
+  font-family: "Rubik", sans-serif;
+}
